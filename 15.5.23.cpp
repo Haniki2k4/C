@@ -1,6 +1,21 @@
 #include <stdio.h>
+#include <ctype.h>
+#include <math.h>
 
 //bai1
+/*
+long GiaiThua(int n){
+	if(n==0) return 1;
+	return n*GiaiThua(n-1);
+}
+int main(){
+ 	int n;
+	printf("Nhap so nguyen n: ");
+	scanf("%d", &n);
+	printf("\nGiai thua cua %d = %ld", n, GiaiThua(n));
+	return 0;
+}*/
+//cách khác
 /*main() {
 	int n,i;
 	long long giaithua = 1;
@@ -155,5 +170,19 @@ return 0;
 
 
 //bai7
-
+/*int main()
+{
+    int n, a = 0;
+    printf("Nhap 1 so nguyen duong: ");
+    scanf("%d", &n);
+    while (n != 0)
+    {
+        a = a * 10;
+        a = a + n % 10;
+        n = n / 10;
+    }
+    printf("So dao nguoc là: %d", a);
+    return 0;
+}
+*/
 
