@@ -1,5 +1,5 @@
 #include <stdio.h>
-/*int main() {
+int main() {
   int n; // the number of elements in the array
   int arr [100]; // the array to store the numbers
   int max; // the variable to store the maximum value
@@ -22,10 +22,5 @@
 
   printf("The largest element is %d\n", max); // print the result
   return 0;
-}*/
-
-main(){
-	int g=1;
-	printf("%d %d %d", g,++g,g++);
-	return 0;
 }
+
